@@ -1,7 +1,7 @@
 
 const LineItem = ({ item, handleCheck, handleDelete}) => {
   return (
-    <li className="item" key={item.id}>
+    <li className="item">
               <input
                 type="checkbox"
                 onChange={() => handleCheck(item.id)}
