@@ -21,3 +21,57 @@ export const sliderItems = [
         bg: "fbf0f4"
     },
 ]
+
+export const categories = [
+    {
+        id: 1,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+        title: "SHIRT STYLE!"
+    },
+    {
+        id: 2,
+        img: "https://images.pexels.com/photos/2983463/pexels-photo-2983464.jpg",
+        title: "LOUNGEWEAR LOVER"
+    },
+    {
+        id: 3,
+        img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpg",
+        title: "LIGHT JACKETS"
+    },
+]
+
+
+export const popularProducts = [
+    {
+        id: 1,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 2,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 3,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 4,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 5,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 6,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 7,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+    {
+        id: 8,
+        img: "https://getrandompick.com/randomImage/212563",
+    },
+]
