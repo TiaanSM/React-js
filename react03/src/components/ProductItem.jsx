@@ -11,6 +11,9 @@ const Info = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
 `;
 
 const Container = styled.div`
@@ -43,7 +46,6 @@ const Image = styled.img`
 `;
 
 const Icon = styled.div`
-    opacity: 0;
     width: 40px;
     height: 40px;
     border-radius: 50%;
