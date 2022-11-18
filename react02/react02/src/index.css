@@ -11,11 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-div {
+.div {
     width: 200px;
     height: 200px;
     border-radius: 1rem;
     background-color: white;
+    margin: 1rem;
 }
