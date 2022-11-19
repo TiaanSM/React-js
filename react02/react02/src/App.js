@@ -44,20 +44,31 @@ function App() {
   // for keyframe animation => animate={{ rotate: [0, 200, 200, 0] }} // use an array.
 
   // repeat: 2, => repeats the animation based on given amount. Infinity to keep it going.
+
+  /*
+  ref={ref}
+
+  <motion.div className="div"
+    animate={{ rotate: [0, 200, 200, 0] }}
+    transition={{ repeat: 2, duration: 1 }}
+  ></motion.div>
+
+  <motion.div className="div"
+    animate={animation}>   
+  </motion.div>
+  */
   
   return (
 
-    <div className="app" ref={ref}>
+    <div className="app" >
 
-        <motion.div className="div"
-          animate={{ rotate: [0, 200, 200, 0] }}
-          transition={{ repeat: 2, duration: 1 }}
-        ></motion.div>
-
-        <motion.div className="div"
-          animate={animation}>   
-        </motion.div>
-
+        <motion.button whileHover={{
+        x: 3, y: 3, boxShadow: 'inset 0 -50px 0 0 red', color: 'white',
+          
+        }}>
+          BUY NOW
+        </motion.button>
+    
     </div>
   )
 }
