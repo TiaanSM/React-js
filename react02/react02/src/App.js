@@ -62,9 +62,15 @@ function App() {
 
     <div className="app" >
 
-        <motion.button whileHover={{
-        x: 3, y: 3, boxShadow: 'inset 0 -50px 0 0 red', color: 'white',
-          
+        <motion.button 
+        whileHover={{
+           x: 3, y: 3, boxShadow: ['3px 3px red', '0 0 0 0','inset 0 -50px 0 0 red'], color: 'white' 
+          }} 
+        transition={{
+          boxShadow: {
+           duration: 0.3
+          },
+          color: {delay: 0.2}
         }}>
           BUY NOW
         </motion.button>
